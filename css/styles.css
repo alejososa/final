@@ -34,6 +34,22 @@ footer {
 iframe{
   max-height: 200px;
 }
+@media screen and (max-width: 768px){
+  
+  footer{
+    display: flex;
+  flex-direction: column;
+  background-color: darkred;
+  margin: 20rem 0px 10px 10px;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to top, white, red);
+  max-height: 200px;
+  }
 
+  iframe{
+    max-width: 100%;
+  }
+}
 
 
