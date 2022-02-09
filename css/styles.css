@@ -1,8 +1,39 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  header{
-    margin: 0px, 10px, 0px, 10px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 10px;
+}
+main {
+  padding: 10px;
+
+}
+.hora {
+  max-inline-size: 100vh;
+}
+.imghero{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: darkred;
+  margin: 20rem 0px 10px 10px;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to left, white, red);
+  max-height: 200px;
+}
+.abamafooter{
+  max-height: 200px;
+}
+iframe{
+  max-height: 200px;
+}
+
+
+
